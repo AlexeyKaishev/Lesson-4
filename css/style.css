@@ -278,13 +278,13 @@ header h1 {
 }
 
 header h1::first-letter {
-   font-weight: italic;
+   font-style: italic;
    font-size: 28px;
    color: #ff0000;
 }
 
 header h1 > span {
-   font-weight: italic;
+   font-style: italic;
    font-size: 24px;
    color:#ff4500;
 }

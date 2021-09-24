@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Barracuda';
+    src: url('Barracuda-Bold.woff2') format('woff2'),
+        url('Barracuda-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barracuda';
+    src: url('Barracuda-BoldItalic.woff2') format('woff2'),
+        url('Barracuda-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barracuda';
+    src: url('Barracuda-LightItalic.woff2') format('woff2'),
+        url('Barracuda-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barracuda';
+    src: url('Barracuda-Italic.woff2') format('woff2'),
+        url('Barracuda-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barracuda';
+    src: url('Barracuda-Light.woff2') format('woff2'),
+        url('Barracuda-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barracuda';
+    src: url('Barracuda-Regular.woff2') format('woff2'),
+        url('Barracuda-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

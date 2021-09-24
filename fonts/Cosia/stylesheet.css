@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'SK Coisa Trial';
+    src: url('SKCoisa-Trial.woff2') format('woff2'),
+        url('SKCoisa-Trial.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

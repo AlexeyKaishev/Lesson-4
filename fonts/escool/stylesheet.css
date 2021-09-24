@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Eskool';
+    src: url('Eskool-Regular.woff2') format('woff2'),
+        url('Eskool-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,408 @@
+   
+/*===============Шрифты=======================*/
+/* &display=swap&subset=cyrillic-ext     -----   добавлять параметр в конце ссылки (слитно с ссылкой) если подключаем шрифты с плагина вскода)*/ 
+
+@import url('../fonts/https://fonts.googleapis.com/css2?family=Gluten:wght@500&display=swap');
+/* font-family: 'Gluten', cursive;*/
+
+@font-face {
+   font-family: 'SK Coisa Trial';
+   src: url('../fonts/Cosia/SKCoisa-Trial.woff2') format('woff2'),
+   url('../fonts/Cosia/SKCoisa-Trial.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'SK Coisa Trial';
+   src: url('../fonts/Cosia/SKCoisa-Trial.woff2') format('woff2'),
+   url('../fonts/SKCoisa-Trial.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Migra';
+   src: url('../fonts/migra/MigraItalic-ExtraboldItalic.woff2') format('woff2'),
+       url('../fonts/migra/MigraItalic-ExtraboldItalic.woff') format('woff');
+   font-weight: 800;
+   font-style: italic;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Migra';
+   src: url('../fonts/migra/Migra-Extrabold.woff2') format('woff2'),
+       url('../fonts/migra/Migra-Extrabold.woff') format('woff');
+   font-weight: 800;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Migra';
+   src: url('../fonts/migra/Migra-Extralight.woff2') format('woff2'),
+       url('../fonts/migra/Migra-Extralight.woff') format('woff');
+   font-weight: 200;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Migra';
+   src: url('../fonts/migra/MigraItalic-ExtralightItalic.woff2') format('woff2'),
+   url('../fonts/migra/MigraItalic-ExtralightItalic.woff') format('woff');
+   font-weight: 200;
+   font-style: italic;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'SK Pangramma Sans';
+   src: url('../fonts/pangramma/SKPangramma-Sans.woff2') format('woff2'),
+       url('../fonts/pangramma/SKPangramma-Sans.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'SK Pangramma Slab Trial';
+   src: url('../fonts/pangramma/SKPangramma-SlabTrial.woff2') format('woff2'),
+       url('../fonts/pangramma/SKPangramma-SlabTrial.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'PP Eiko';
+   src: url('../fonts/eiko/PPEiko-Medium.woff2') format('woff2'),
+       url('../fonts/eiko/PPEiko-Medium.woff') format('woff');
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'PP Eiko';
+   src: url('../fonts/eiko/PPEiko-Thin.woff2') format('woff2'),
+       url('../fonts/eiko/PPEiko-Thin.woff') format('woff');
+   font-weight: 100;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'PP Eiko';
+   src: url('../fonts/eiko/PPEiko-Heavy.woff2') format('woff2'),
+       url('../fonts/eiko/PPEiko-Heavy.woff') format('woff');
+   font-weight: 900;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: 'Eskool';
+   src: url('../fonts/escool/Eskool-Regular.woff2') format('woff2'),
+       url('../fonts/escool/Eskool-Regular.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Current';
+   src: url('../fonts/current/Current-Regular.woff2') format('woff2'),
+       url('../fonts/current/Current-Regular.woff') format('woff');
+   font-weight: 900;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Current';
+   src: url('../fonts/current/Current-Regular.woff2') format('woff2'),
+       url('../fonts/current/Current-Regular.woff') format('woff');
+   font-weight: 900;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Sunmora';
+   src: url('../fonts/sunmora/Sunmora-Bold.woff2') format('woff2'),
+       url('../fonts/sunmora/Sunmora-Bold.woff') format('woff');
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Lucky Change';
+   src: url('../fonts/LC/LuckyChange-Regular.woff2') format('woff2'),
+       url('../fonts/LC/LuckyChange-Regular.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Barracuda';
+   src: url('../fonts/baracuda/Barracuda-Bold.woff2') format('woff2'),
+       url('../fonts/baracuda/Barracuda-Bold.woff') format('woff');
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Barracuda';
+   src: url('../fonts/baracuda/Barracuda-BoldItalic.woff2') format('woff2'),
+       url('../fonts/baracuda/Barracuda-BoldItalic.woff') format('woff');
+   font-weight: bold;
+   font-style: italic;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Barracuda';
+   src: url('../fonts/baracuda/Barracuda-LightItalic.woff2') format('woff2'),
+       url('../fonts/baracuda/Barracuda-LightItalic.woff') format('woff');
+   font-weight: 300;
+   font-style: italic;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Barracuda';
+   src: url('../fonts/baracuda/Barracuda-Italic.woff2') format('woff2'),
+       url('../fonts/baracuda/Barracuda-Italic.woff') format('woff');
+   font-weight: normal;
+   font-style: italic;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Barracuda';
+   src: url('../fonts/baracuda/Barracuda-Light.woff2') format('woff2'),
+       url('../fonts/baracuda/Barracuda-Light.woff') format('woff');
+   font-weight: 300;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Barracuda';
+   src: url('../fonts/baracuda/Barracuda-Regular.woff2') format('woff2'),
+       url('../fonts/baracuda/Barracuda-Regular.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+
+
+
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+body {
+   font-family: 'Gluten', cursive;
+   line-height: normal;
+   font-size: 24px;
+}
+
+/*=================общие классы и id для текста================================*/
+
+.lt {
+   text-decoration: line-through;
+}
+
+.ul {
+   text-decoration: underline;
+}
+
+.ol {
+   text-decoration: overline;
+}
+
+.cap {
+   text-transform: capitalize;
+}
+
+.upp {
+   text-transform: uppercase;
+}
+
+.sub {
+   vertical-align: sub;
+}
+
+.sup {
+   vertical-align: super;
+}
+
+.red {
+   color: #ff0000;
+}
+
+.green {
+   color: #008000;
+}
+/*=======================HEADER===========================*/
+
+header {
+   text-align: center;
+   margin-bottom: 50px;
+}
+
+header h1 {
+   font-size: 22px;
+}
+
+header h1::first-letter {
+   font-weight: italic;
+   font-size: 28px;
+   color: #ff0000;
+}
+
+header h1 > span {
+   font-weight: italic;
+   font-size: 24px;
+   color:#ff4500;
+}
+
+header nav {
+   text-align: left;
+   line-height: 100px;
+   margin-top: 25px;
+   margin-bottom: 25px;
+}
+
+header .navmenu li {
+   line-height: 30px;
+}
+
+.navmenu li>a {
+   font-size: 22px;
+   padding-left: 15px;
+}
+
+nav ul li a:link, nav ul li a:visited {
+   color: inherit;
+}
+/* -----nav .navmenu--fonts--*/
+
+#cosia, .coisa {
+   font-family: 'SK Coisa Trial';
+   font-weight: 800;
+   letter-spacing: 4px;
+}
+
+#migra, .migra {
+   font-family: 'Migra';
+   font-weight: 800;
+   font-style: normal;
+   }
+
+#pangramma, .pangramma {
+   font-family: 'SK Pangramma Slab Trial';
+   font-weight: 800;
+}
+
+#eiko, .eiko{
+   font-family: 'PP Eiko';
+   font-weight: 800;
+}
+
+#escool, .escool {
+   font-family: 'Eskool';
+}
+
+#current, .current{
+font-family: 'Current';
+}
+
+#sunmora, .sunmora{
+font-family: 'Sunmora';
+font-weight: bold;
+}
+
+#lc, .lc {
+   font-family: 'Lucky Change';
+}
+
+#barr, .barr {
+   font-family: 'Barracuda';
+   font-weight: bold;
+}
+/*---------------*/
+
+header h2 {
+   line-height: normal;
+   font-size: 18px;
+}
+.number {
+   
+}
+
+
+/*===================MAIN===========================*/
+
+main {
+   text-align: center;
+   padding:0 15px ;
+}
+main h3 {
+   text-align: center;
+   font-size: 25px;
+}
+
+main img {
+   margin: 15px;
+   max-width: 800px;
+   height: 100%;
+}
+
+main p {
+   margin-bottom: 25px;
+}
+
+footer {
+   text-align: center;
+   font-weight: bold;
+   padding: 50px 0;
+   background-color: #b6acac;
+}
+
+body div.wm {
+   position: absolute;
+   top:50px;
+   right: 20px;
+   writing-mode: tb-rl;
+    direction: rtl;
+    transform: rotate(
+180deg);
+}
+
+body div.wm span {
+   display: inline-block;
+   transform: rotate(90deg);
+}

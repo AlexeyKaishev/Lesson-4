@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'SK Pangramma Sans';
+    src: url('SKPangramma-Sans.woff2') format('woff2'),
+        url('SKPangramma-Sans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SK Pangramma Slab Trial';
+    src: url('SKPangramma-SlabTrial.woff2') format('woff2'),
+        url('SKPangramma-SlabTrial.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
